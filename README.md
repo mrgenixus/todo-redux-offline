@@ -27,7 +27,8 @@ OR (fork first)
 
 ```
 git clone git@github.com:mrgenixus/todo-offline.git
-git clone git@github.com:mrgenixus/todo-offline-client.git
+git remote add todo-client git@github.com:mrgenixus/todo-offline-client.git
+git pull todo-client master
 ```
 
 3. Follow readme setup for other repos:
